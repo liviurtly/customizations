@@ -1,0 +1,605 @@
+<style>
+/*** WELCOME PAGE  ***/
+
+/* ADD THIS INTO JS Snippet $('body').attr("id","rtly-ccc"); */
+
+/* CLIENT LOGO */
+#rtly-ccc .rc-brand
+    {
+        display: block;
+        width: 100%;
+        background-color: #fff;
+        padding: 70px 0;
+    }
+
+#rtly-ccc  .rc-brand > a > img 
+    {
+        height: auto;
+        width: auto;
+        max-height: 60px;
+        max-width: 350px;    
+    }
+
+/* Returns Center -> Text*/
+#rtly-ccc  .rc-section.form-container.start-form-container > div > h1
+    {
+        font-family: inherit;
+        font-size: 36px;
+        color: inherit;
+        text-align: center;
+        margin: 0;
+    }
+
+/* EMAIL INPUT */
+#rtly-ccc  .start-return-form.form-start input[type="email"]
+    {
+        border: 1px solid #a4a3a4;
+        font-family: inherit;
+        font-size: 15px;
+        background-color: #fff;
+        color: #303030;
+        padding: 15px 20px;
+        margin: 20px 0 0;
+        width: 100%;
+        border-radius: 0;
+        position: relative;
+    }
+
+/* TEXT INPUT */
+#rtly-ccc .start-return-form.form-start input[type="text"]
+    {
+        border: 1px solid #a4a3a4;
+        font-family: inherit;
+        font-size: 15px;
+        background-color: #fff;
+        color: #303030;
+        padding: 15px 20px;
+        margin: 20px 0 0;
+        width: 100%;
+        border-radius: 0;
+        position: relative;
+    }
+
+/* START A RETURN -> BUTTON */
+#rtly-ccc .start-return-btn
+    {
+        background-color:#2bc584;
+    }
+/* Start with an ... -> TEXT */
+#rtly-ccc .form-actions-container .form-view-link
+    {
+        color:#303030;
+    }   
+/* How it Works -> TEXT */
+#rtly-ccc .how-works .rc-title
+    {
+        color:#303030;
+    }
+/* How it Works -> ICONS */
+#rtly-ccc .rounded
+    {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 2px solid #128bcb;
+        background-color: #fff;
+        color: #128bcb;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+    }
+#rtly-ccc .rounded i
+    {
+        font-size: 40px;
+        line-height: 100px;
+    }
+
+/* Common Returns Questions -> BLOCKS*/
+#rtly-ccc .returns-questions .rc-title
+    {
+        
+    }
+
+#rtly-ccc .returns-questions h2
+    {
+       
+    }
+
+#rtly-ccc .returns-questions p
+    {
+        
+    }
+/*** https://returnly-deliviu.dev.return.ly/customization_previews/return_start  ***/ 
+
+#rtly-ccc .card
+    {
+
+    }
+
+/* CLIENT LOGO*/
+#rtly-ccc .rt-logo
+    {
+
+    }
+
+#rtly-ccc .card-body
+    {
+
+    }
+
+#rtly-ccc .card-body
+    {
+        
+    }  
+#rtly-ccc .card-body .message-img
+    {
+
+    }
+
+#rtly-ccc .card-body p
+    {
+    }
+
+/*** https://returnly-deliviu.dev.return.ly/customization_previews/estimated_refund ***/
+/*Your Estimated Refund -> BLOCK */
+#rtly-ccc .receipt-card-header
+    {
+        
+    }
+/* Refund -> image */
+#rtly-ccc .return-details-info .e-product-img
+    {
+        
+    }
+/* Refund -> name */
+#rtly-ccc .return-details-info .e-product-name
+    {
+        
+    }
+ /* Refund Block */
+#rtly-ccc #confirm-return-form .refund-estimate
+    {
+         
+    }
+
+#rtly-ccc #confirm-return-form  .refund-totals 
+    {
+          
+    }   
+#rtly-ccc .re-exchanges-section
+    {
+         
+    }
+ /* Refund Block   Any additional feedback */
+#rtly-ccc .re-exchanges-section .shopper-comments
+    {
+        
+    }
+/* Cancel this return  -> button */
+#rtly-ccc .e-buttons .return-cancelation
+    {
+       
+    }
+
+/* Confirm  -> button  WE CAN MAKE IT GENERAL */
+#rtly-ccc .e-buttons .brand-btn
+    {
+        
+    } 
+
+
+/*** https://returnly-deliviu.dev.return.ly/customization_previews/return_status ***/ 
+/* LOGO */
+#rtly-ccc #tracking-info-container .rt-logo  
+    {
+       
+    }
+/* Text Block */
+#rtly-ccc #tracking-info-container .card-body  
+    {
+        
+    }
+/* Continue Shopping  -> button */
+#rtly-ccc #tracking-info-container .brand-btn
+    {
+       
+    }
+
+/*** https://returnly-deliviu.dev.return.ly/customization_previews/instaref_return_status ***/
+/* Download Shipping Label -> Text/Link  */
+#rtly-ccc .instaref-content .download-label
+    {
+        
+    }
+
+ /* Want to Exchange Your Items? -> Block  */
+ #rtly-ccc .instaref-content .voucher-section
+    {
+        
+    }
+/* Shop with Instant Refund -> Button  */
+#rtly-ccc .instaref-content .shopping-button .use-instaref-btn
+    {
+       
+    }
+ 
+/* How it works -> Block */
+#rtly-ccc .instaref-working
+    {
+
+    }
+
+/*** https://returnly-deliviu.dev.return.ly/customization_previews/address_verification ***/
+/* FORM */
+#rtly-ccc .av-card
+    {
+        
+    }
+/* Block*/
+#rtly-ccc .av-card .form-group
+    {
+        
+    }
+/* Input*/
+#rtly-ccc .av-card .form-group .form-control
+    {
+       
+    }
+/* Button */
+#rtly-ccc .av-card .brand-btn
+    {
+        
+    }    
+
+/*** https://returnly-deliviu.dev.return.ly/customization_previews/return_cancel ***/
+/* CLIENT LOGO */
+#rtly-ccc .notifications-container .rt-logo
+    {
+
+    }
+/* ICON */
+#rtly-ccc .notifications-container .message-img i
+    {
+
+    }
+/*Return canceled -> TEXT */
+#rtly-ccc .notifications-container h1
+    {
+        
+    }
+/* Continue Shopping -> Button */
+#rtly-ccc .notifications-container .brand-btn
+    {
+        
+    }
+
+/*** https://returnly-deliviu.dev.return.ly/customization_previews/credit_card_payment ***/
+/* Credit card details */
+#rtly-ccc .returns-flow-container h1 
+    {
+
+    }
+/* Amount */    
+#rtly-ccc .returns-flow-container h2 
+    {
+        
+    }
+/* FORM */
+
+#rtly-ccc #payment-form
+    {
+
+    }
+
+#rtly-ccc #payment-form #card-errors
+    {
+
+    }
+
+#rtly-ccc #payment-form #card-element-e
+    {
+
+    }
+/* BUTTON */
+#rtly-ccc .returns-flow-container .brand-btn
+    {
+        
+    }
+
+
+/*** https://returnly-deliviu.dev.return.ly/return/products/b0779cee6dce6c974243fd6c0fc9ea4a75c63bb4 ***/
+/* Product Page 4 */
+body#rtly-ccc
+    {
+        background-color: #f2f2f2;  
+    }
+
+/*PRODUCT TITLE 2*/    
+#rtly-ccc .product-container .product-title .product-title-price h4
+    {
+        font-size:14px;
+        color: inherit;
+    }
+/*PRODUCT PRICE 2*/    
+#rtly-ccc .product-container .product-title-price .product-price
+    {
+        background-color: #f2f2f2;
+        font-weight: 700;
+        color: inherit;
+        font-size: inherit;
+    }
+/*PRODUCT DETAILS 3*/    
+#rtly-ccc .product-container .product-title .product-return-details
+ 
+    {   
+        color: #303030;
+        font-size: 100%;
+    }
+/*PRODUCT ORDER 3*/    
+#rtly-ccc .product-container .product-title .product-order-number
+    {   
+        color: inherit;
+        font-size: inherit;
+    }    
+
+ /* Product Page > Product Card -> CheckMark 2bc584*/
+ #rtly-ccc .product-wrapper.selected {
+     border: 1px solid #2bc584;
+ }
+ /* Product Page > Product Card -> CheckMark */
+ #rtly-ccc .product-wrapper .selected-checkmark
+    {
+        background-color:#2bc584;
+    }
+/* Product Page > Product Card -> CheckMark Icon right top corner*/    
+#rtly-ccc .product-wrapper .selected-checkmark i
+    {
+        display: block;
+        text-align: center;
+        line-height: 38px;
+        font-size: 22px;
+        color: #fff;
+    }
+
+/* Product Page -> Product card -> Selecting Cause of return -> LABEL*/        
+#rtly-ccc .product-wrapper .cause label 
+    {
+        border: 1px solid #ccc;
+        background-color: #fff;        
+    }   
+ /* Product Page -> Product card -> Selecting Cause of return -> ICON*/     
+#rtly-ccc .product-wrapper .cause label i.fa {
+        font-size: 18px;
+        line-height: 28px;
+        color: #2bc584;
+    } 
+    
+ /*** RMA Status Page (Traditional Return) ***/  
+ /* We're sorry your order didn't work out. -> Text*/ 
+#rtly-ccc .rma-status h1   
+    {
+        font-family: inherit;
+        color: inherit;
+        font-weight: bold;
+        margin: 0;
+        
+    }
+/* Your Return has been Authorized. -> BLOCK*/
+#rtly-ccc .rma-activity__header h2
+    {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -0.08px;
+        margin-bottom: 3px;
+        
+    }    
+ /* After */
+#rtly-ccc .rma-activity__header .no-margin p
+    {
+        font-family: inherit;
+        color: inherit;
+        line-height: 22px;
+        font-size: 14px;
+        letter-spacing: 0.18px;
+    }
+/*  Before */
+#rtly-ccc .rma-activity__header  p
+    {
+        font-family: inherit;
+        color: inherit;
+        line-height: 22px;
+        font-size: 14px;
+        letter-spacing: 0.18px;
+    }
+/* Date */
+#rtly-ccc .rma-activity__header .rma-activity__return-before-date
+    {
+
+    }
+/* CTA Download Shipping Label*/
+#rtly-ccc  .js-shipping-label-download-link
+    {
+        
+        background-color: #2bc584;
+        font-size:inherit;
+    }
+
+/* Image Right Block */
+#rtly-ccc .rma-status__buy-more
+    {
+        background-color: #f3f3f3;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        min-height: 530px;  
+        overflow: hidden;
+        border: 3px solid #ececec;
+    }
+/* TEXT */
+
+#rtly-ccc .rma-prompt__header h2
+    {
+        color: inherit;
+        font-size:18px; 
+    }
+/* CTA SHOP NOW */
+#rtly-ccc .rma-prompt__header .buy-more-button
+    {
+        color: #fff;
+        font-size:inherit; 
+    }
+
+/*** BLOCK BUY MORE (CREDIT APPLICATION) ***/
+/* RMA Status Page (Returnly Credit) */
+#rtly-ccc .rma-status__buy-instaref
+    {
+        border: 3px solid #ececec;
+        
+    }
+
+#rtly-ccc .rma-status__buy-instaref .rma-prompt__header
+    {
+        background-color: #f3f3f3;
+    }
+/* INSTANT Refund Block*/
+#rtly-ccc .rma-status__buy-instaref .instaref__card-content  
+    {
+        display: block;
+        width: 100%;
+        border: 2px solid #ececec; 
+        border-radius: 5px;
+        margin: 0 0 30px;
+    }
+
+/* Amount and Currency Block*/
+#rtly-ccc .instaref__card-content .instaref__amount 
+    {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 34px;
+        line-height: 30px;
+        font-weight: 800;
+        letter-spacing: -0.56px;
+        margin-top: 5px;
+    }
+
+    #rtly-ccc .instaref__card-content .instaref__amount .currency
+    {
+        color:inherit;
+        font-size: inherit;
+    }
+    #rtly-ccc .instaref__card-content .instaref__amount .amount
+    {
+        color:inherit;
+        font-size: inherit;
+    }
+/* BUY MORE -> CTA */
+#rtly-ccc .rma-status__buy-instaref .buy-instaref-button
+    {
+        color: inherit;
+        background-color: inherit;
+        font-size: inherit;
+    }
+
+/*** RMA Status Page (Exchange) ***/
+/* LEFT BLOCK */
+#rtly-ccc  .rma-status__shipping-container .rma-activity__header 
+    {
+        background-color: #f3f3f3;
+        padding: 30px;
+    }
+
+/*RIGHT BLOCK*/
+#rtly-ccc .buy-exchange__content 
+    {
+        border: 3px solid #ececec;
+        background-color: #fff;
+    }
+/* Success! Your Exchange is Being Processed! -> Text Block*/
+#rtly-ccc .buy-exchange__content .rma-prompt__header 
+    {
+        background-color: #f3f3f3;
+        padding: 30px 20px;
+    }
+
+#rtly-ccc .buy-exchange__content .rma-prompt__header h2
+    {
+        /* background-color: #f3f3f3; */
+        background-color: aqua;
+        padding: 30px 20px;
+    }
+
+#rtly-ccc .buy-exchange__content .rma-prompt__header p
+    {   
+        background-color: #f3f3f3;
+        padding: 30px 20px;
+    }
+
+/* New items: */
+#rtly-ccc .rma-prompt__body h4
+    {
+        color: inherit;
+    }
+/*Image block*/
+#rtly-ccc  .rma-prompt__buy-product
+    {
+        border: 2px solid #ececec;
+        padding: 25px 13px;
+        margin-top: 15px;
+    }
+/* Title */
+#rtly-ccc  .rma-prompt__buy-product h3
+    {
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: -0.07px;
+    }
+/*Summery Text*/    
+#rtly-ccc  .rma-prompt__buy-product   .product-summary__return-type
+    {
+        font-style: normal;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 18px;
+        opacity: 1; 
+    }
+
+
+/*** GENERAL ***/
+/* CLIENT LOGO */
+#rtly-ccc .rt-logo
+    {
+        
+    }
+
+/* BUTTON */
+#rtly-ccc .brand-btn
+    {
+        
+    }
+#rtly-ccc h1
+    {
+      
+    }
+#rtly-ccc p
+    {
+        
+    }
+
+#rtly-ccc .return-multiproduct-btn.disabled
+    {
+        background-color: #ccc;
+        font-size: 18px;
+        color:initial;
+    }
+#rtly-ccc .return-multiproduct-btn .sticky-btn:not(.disabled),.sticky-btn:not(:disabled) {
+        background-color: #2bc584;
+        color:#fff;
+        font-size: 18px;
+    }
+
+</style>
